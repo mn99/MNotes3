@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single"
+        android:id="@+id/menu_1">
+        <item
+            android:id="@+id/nav_notes"
+            android:icon="@drawable/ic_menu_lightbulb"
+            android:title="Home"/>
+        <item
+            android:id="@+id/nav_reminders"
+            android:icon="@drawable/ic_menu_bell"
+            android:title="Reminders"/>
+    </group>
+
+    <item android:title="Create new label"
+        android:icon="@drawable/ic_menu_cross"/>
+
+    <group android:id="@+id/menu_3">
+        <menu>
+            <item
+                android:title="Archive"
+                android:id="@+id/nav_archive"
+                android:icon="@drawable/ic_menu_archive"/>
+            <item
+                android:title="Trash"
+                android:icon="@drawable/ic_menu_trash"
+                android:id="@+id/nav_trash"/>
+        </menu>
+    </group>
+
+    <group android:id="@+id/menu_4">
+        <menu>
+            <item
+                android:title="Settings"
+                android:id="@+id/nav_settings"
+                android:icon="@drawable/ic_menu_settings"/>
+            <item
+                android:title="Help &amp; feedback"
+                android:id="@+id/nav_help"
+                android:icon="@drawable/ic_menu_help"/>
+        </menu>
+    </group>
+</menu>
