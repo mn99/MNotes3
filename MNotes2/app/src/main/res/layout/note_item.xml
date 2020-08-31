@@ -9,10 +9,7 @@
     app:strokeColor="#35000000"
     app:strokeWidth="1dp"
     tools:cardCornerRadius="10dp"
-    android:padding="10dp"
-    android:layout_marginLeft="10dp"
-    android:layout_marginBottom="10dp"
-    android:layout_marginRight="10dp">
+    android:padding="10dp">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
